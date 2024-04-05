@@ -930,8 +930,6 @@ footer .social-media-link:focus{
     }
 }
 
-
-
 @media screen and (min-width:1158px){
     footer .container{
         flex-direction: row;
