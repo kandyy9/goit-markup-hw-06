@@ -885,15 +885,24 @@ footer .social-media-link:focus{
             margin-bottom: 16px;
         }
 
+    .footer-paragraph {
+        width: 264px;
+    }
+
     .newsletter-form{
         display: flex;
         gap: 24px;
         margin: 0;
     }
 
+    .newsletter-input {
+        max-width: 264px;
+    }
+
     .newsletter-submit{
         margin: 0;
     }
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 1157px) {
@@ -910,10 +919,6 @@ footer .social-media-link:focus{
         grid-row: 1;
     }
 
-    .footer-paragraph{
-        width: 264px;
-    }
-
     .footer-social-media {
         grid-column: 2 / 3;
         grid-row: 1;
@@ -922,10 +927,6 @@ footer .social-media-link:focus{
     .newsletter-section {
         grid-column: 1 / -1;
         grid-row: 2;
-    }
-
-    .newsletter-input{
-        max-width: 264px;
     }
 }
 
